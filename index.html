@@ -52,8 +52,7 @@
                         Roboto: 'Roboto',
                     },
                     backgroundImage: {
-                        leaf: "url('./images/leaf01.png')",
-                        call_to_action: "url('./images/call.jpg')",
+                        bus: "url('./images/banner.png')",
                     },
                 },
             },
@@ -62,8 +61,8 @@
 
 </head>
 
-<body class="font-Raleway">
-    <header class="w-11/12 mx-auto">
+<body class="font-Inter">
+    <header class="w-11/12 mx-auto relative">
         <!-- nav bar starts -->
         <div class="navbar bg-base-100 mb-8">
             <div class="navbar-start">
@@ -99,6 +98,47 @@
             </div>
         </div>
         <!-- nav bar ends -->
+
+        <!-- hero section starts -->
+        <section class="bg-bus pt-[70px] pb-32 rounded-3xl"
+            style="background-repeat: no-repeat; background-position: center; background-size: cover;">
+            <!-- hero text content start -->
+            <div class="text-center">
+                <h1 class="text-white text-6xl font-extrabold">End-to-End Travel with <br>
+                    <span class="text-primary">P Paribahan</span>
+                </h1>
+                <p class="text-white pt-4 pb-8">Yes, you can run unit tests and view the results directly within the
+                    app. The <br> integrated testing features allow for a streamlined .</p>
+                <button class="btn bg-primary border-none font-bold">Buy Tickets</button>
+            </div>
+            <!-- hero text content ends -->
+        </section>
+        <!-- cards content starts -->
+        <div class="flex justify-center gap-6 absolute bottom-1/2">
+            <div class="flex gap-4 p-8 border-b-2 rounded-3xl border-primary">
+                <img src="images/people.png" alt="">
+                <div>
+                    <p class="text-4xl font-bold">500K+</p>
+                    <p class="text-[#686A71]">Registered Users</p>
+                </div>
+            </div>
+            <div class="flex gap-4 p-8 border-b-2 rounded-3xl border-primary">
+                <img src="images/ticket-cupon.png" alt="">
+                <div>
+                    <p class="text-4xl font-bold">1.7 lacks</p>
+                    <p class="text-[#686A71]">Tickets Sold</p>
+                </div>
+            </div>
+            <div class="flex gap-4 p-8 border-b-2 rounded-3xl border-primary">
+                <img src="images/stoppage.png" alt="">
+                <div>
+                    <p class="text-4xl font-bold">80k+</p>
+                    <p class="text-[#686A71]">Rental Partners</p>
+                </div>
+            </div>
+        </div>
+        <!-- cards content ends -->
+        <!-- hero section ends -->
     </header>
 
     <!-- seat booking section starts -->
